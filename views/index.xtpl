@@ -1,0 +1,86 @@
+{{extend ("./layout")}}
+
+{{#block ("head")}}
+{{/block}}
+
+{{#block ("body")}}
+<div class="aw-container-wrap">
+  <div class="container">
+    <div class="row">
+      <div class="aw-content-wrap clearfix">
+        <div class="col-sm-12 col-md-9 aw-main-content">
+          <div class="aw-mod aw-explore-list">
+            <div class="mod-body">
+              <div class="aw-common-list">
+                <div class="aw-item active" >
+                  <a class="aw-user-name hidden-xs"  href="#" rel="nofollow">
+                  <img src="/public/images/avatar.png" alt=""/>
+                  </a>
+                  <div class="aw-question-content">
+                    <h4>
+                      <a href="#">文章标题</a>
+                    </h4>
+                    <p>作者：
+                      <a href="#" class="aw-user-name">admin</a>
+				<span class="text-color-999">• 0 个回复 • 5分钟前
+				</span>
+                    </p>
+
+                  </div>
+                </div>
+
+                <div class="aw-item active" >
+                  <a class="aw-user-name hidden-xs"  href="#" rel="nofollow">
+                  <img src="/public/images/avatar.png" alt=""/>
+                  </a>
+                  <div class="aw-question-content">
+                    <h4>
+                      <a href="#">文章标题</a>
+                    </h4>
+                    <p>作者：
+                      <a href="#" class="aw-user-name">admin</a>
+				<span class="text-color-999">• 0 个回复 • 5分钟前
+				</span>
+                    </p>
+
+
+                  </div>
+                </div>
+
+              </div>
+            </div>
+            <div class="mod-footer">
+              <div class="page-control">
+                <ul id="pagination-demo" class="pagination pull-right">
+                <li>
+                    <a href="#">&lt;&lt;</a></li>
+                  <li>
+                    <a href="#">&lt;</a></li>
+                  <li class="active"><a href="javascript:;">1</a></li>
+                  <li>
+                    <a href="#">2</a>
+                  </li>
+                  <li>
+                    <a href="#">3</a>
+                  </li>
+                  <li>
+                    <a href="#">4</a>
+                  </li>
+                  <li>
+                    <a href="#">&gt;</a></li>
+                  <li>
+                    <a href="#">&gt;&gt;</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>
+{{/block}}
+
+{{#block ("foot")}}
+{{/block}}

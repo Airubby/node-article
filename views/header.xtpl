@@ -1,0 +1,59 @@
+<div class="aw-top-menu-wrap">
+  <div class="container">
+    <!-- logo -->
+    <div class="aw-logo hidden-xs">
+      <a href="/"></a>
+    </div>
+    <!-- end logo -->
+    <!-- 搜索框 -->
+    <div class="aw-search-box  hidden-xs hidden-sm">
+      <form class="navbar-search" action="#" id="global_search_form"
+            method="post">
+        <input class="form-control search-query" type="text" placeholder="搜索文章" autocomplete="off" name="q"
+               id="aw-search-query"/>
+                <span title="搜索" id="global_search_btns" onClick=""><i
+                        class="icon icon-search"></i></span>
+        <div class="aw-dropdown">
+          <div class="mod-body">
+            <p class="title">输入关键字进行搜索</p>
+            <ul class="aw-dropdown-list hide"></ul>
+            <p class="search"><span>搜索:</span><a onClick=""></a></p>
+          </div>
+          <div class="mod-footer">
+            <a href="" onClick="$('#header_publish').click();"
+               class="pull-right btn btn-mini btn-success publish">发起问题</a>
+          </div>
+        </div>
+      </form>
+    </div>
+    <!-- end 搜索框 -->
+
+
+    <!-- 用户栏 -->
+    <div class="aw-user-nav">
+
+       <!-- 登陆&注册栏 -->
+      <span>
+        <a class="register btn btn-normal btn-success" href="/register">注册</a>
+        <a class="login btn btn-normal btn-primary" href="/login">登录</a>
+      </span>
+      <!-- end 登陆&注册栏 -->
+
+
+
+     
+
+    </div>
+    <!-- end 用户栏 -->
+
+   
+    <!-- 发起 -->
+    {{!<div class="aw-publish-btn">
+      <a id="header_publish" href="/publish/article" class="btn-primary"><i
+              class="icon icon-ask"></i>发起</a>
+    </div>}}
+    <!-- end 发起 -->
+    
+
+  </div>
+</div>
